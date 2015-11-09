@@ -1,0 +1,322 @@
+* {
+margin: 15px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#all {
+    display: none;
+}
+
+
+header {
+     height: 450px;
+     width: 250px;
+     border: 2px solid black;
+    border-radius: 20px;
+    float: left;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    display: inline;
+    position: fixed;
+    z-index: -1;
+    background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+header:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3) translate(40px, 40px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.3) translate(40px, 40px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3) translate(40px, 40px);
+    transition: all 200ms ease-in;
+    transform: scale(1.3) translate(40px, 40px);
+}
+
+header dd {
+    font-family: sans-serif, "Veranda";
+}
+
+
+
+#name {
+    margin-top: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif, "Times New Roman";
+}
+
+#gmail, #house {
+    float: left;
+    
+}
+
+#etext {
+    float: right;
+    font-size: 90%;
+    margin-top: -0px;
+}
+
+
+#telephone {
+    float:left;
+    clear: left;
+}
+
+#phonenumber {
+    float: right;
+    clear: right;
+    font-size: 85%;
+    margin-top: 20px;
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}
+    
+
+#first {
+    float: right;
+    font-size: 80%;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0.4em;
+}
+
+#second {
+    float: right;
+    clear: right;
+    font-size: 80%;
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+#myself {
+    float: left;
+    margin-left: 65px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    position: fixed;
+    z-index: 1;
+}
+
+#media {
+    text-align: center;
+    font-family: sans-serif, "Times New Roman";
+}
+
+
+article {
+    height: 170px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+article:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, 12px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, 12px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, 12px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, 12px);
+}
+
+p, ul {
+    font-family: sans-serif, "Veranda";
+}
+
+
+#title {
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif, "Times New Roman";
+}
+
+h3 {
+    font-family: sans-serif, "Times New Roman";
+}
+
+#jobtitle {
+    position: relative;
+    right: 20px;
+}
+
+#dates {
+    position: relative;
+    left: 28px;
+    float: right;
+    margin-right: 55px;
+    clear: right;
+}
+
+#moredates {
+    clear: right; 
+    display: inline-block; 
+    margin: 0px -120px 0px -43px;
+}
+
+#firstlocation {
+    position: relative;
+    left: 210px;
+}
+
+#location {
+    position: relative;
+    left: 160px;
+}
+
+#anotherlocation {
+    position: relative;
+    left: -35px;
+    margin-right: 0px;
+}
+
+aside {
+    height: 180px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+    z-index: -1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+aside:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, 10px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, 10px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, 10px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, 10px);
+    z-index: -1;
+}
+
+aside h3, section h3 {
+    display: inline-block;
+}
+
+
+section {
+    height: 880px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+section:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, -47px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, -47px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, -47px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, -47px);
+    z-index: 1;
+}
+
+
+#school {
+    position: relative;
+    right: 0px;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+#town {
+    position: relative;
+    margin-left: 95px;
+}
+
+#duration {
+    clear: right; 
+    display: inline-block; 
+    margin-left:15px;
+}
+
+footer {
+    height: 120px;
+    width: 950px;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    background-color: snow;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+
+footer:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2) translate(-43px, -15px);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2) translate(-43px, -15px); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2) translate(-43px, -15px);
+    transition: all 200ms ease-in;
+    transform: scale(1.2) translate(-43px, -15px);
+}
+
